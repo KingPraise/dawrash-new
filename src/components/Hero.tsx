@@ -60,25 +60,25 @@ export const Hero: React.FC<HeroProps> = ({ onOpenModal }) => {
             </div>
 
             {/* Metric Callout Strip with Gold/Green/Red Accents */}
-            <div className="pt-6 border-t border-slate-200/90 grid grid-cols-3 gap-4">
-              <div className="p-4 rounded-2xl bg-white/90 backdrop-blur-sm border border-slate-200 shadow-sm">
+            <div className="pt-6 border-t border-slate-200/90 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+              <div className="p-3.5 sm:p-4 rounded-2xl bg-white/90 backdrop-blur-sm border border-slate-200 shadow-sm">
                 <div className="text-2xl sm:text-3xl font-black text-slate-900">$45M+</div>
-                <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mt-0.5 flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-emerald-600" /> Pipeline Generated
+                <div className="text-[11px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider mt-0.5 flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-emerald-600 shrink-0" /> Pipeline Generated
                 </div>
               </div>
 
-              <div className="p-4 rounded-2xl bg-white/90 backdrop-blur-sm border border-slate-200 shadow-sm">
+              <div className="p-3.5 sm:p-4 rounded-2xl bg-white/90 backdrop-blur-sm border border-slate-200 shadow-sm">
                 <div className="text-2xl sm:text-3xl font-black text-slate-900">140+</div>
-                <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mt-0.5 flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-amber-500" /> Vetted Channel Partners
+                <div className="text-[11px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider mt-0.5 flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0" /> Vetted Channel Partners
                 </div>
               </div>
 
-              <div className="p-4 rounded-2xl bg-white/90 backdrop-blur-sm border border-slate-200 shadow-sm">
+              <div className="p-3.5 sm:p-4 rounded-2xl bg-white/90 backdrop-blur-sm border border-slate-200 shadow-sm">
                 <div className="text-2xl sm:text-3xl font-black text-slate-900">8 Markets</div>
-                <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mt-0.5 flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-red-600" /> ECOWAS Representation
+                <div className="text-[11px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider mt-0.5 flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-red-600 shrink-0" /> ECOWAS Representation
                 </div>
               </div>
             </div>
