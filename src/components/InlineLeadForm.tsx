@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Send, ShieldCheck, CheckCircle2, ArrowRight, Sparkles, Building2, Globe2 } from 'lucide-react';
+import { Send, ShieldCheck, CheckCircle2, ArrowRight, Building2, Globe2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
 export const InlineLeadForm: React.FC = () => {

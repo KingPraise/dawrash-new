@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { X, CheckCircle2, ShieldCheck, Globe, Building2, Send, ArrowRight, Sparkles } from 'lucide-react';
+import { X, CheckCircle2, ShieldCheck, Globe, Building2, Send, ArrowRight } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
 interface QualificationModalProps {
@@ -100,7 +100,7 @@ export const QualificationModal: React.FC<QualificationModalProps> = ({
             {/* Header Context */}
             <div className="mb-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 border border-red-200 text-red-700 text-xs font-semibold uppercase tracking-wider mb-2">
-                <Sparkles className="w-3.5 h-3.5" /> Direct Commercial Access
+                <ShieldCheck className="w-3.5 h-3.5 text-red-600" /> Direct Commercial Access
               </div>
               <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">
                 Schedule Market Entry Briefing
